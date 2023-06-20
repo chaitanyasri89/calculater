@@ -1,0 +1,25 @@
+.a{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 30%;
+    background-color: rgb(31, 57, 79);
+    margin:auto;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+#result{
+    /*margin-left: 36%;*/
+    margin: auto;
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    background-color: wheat;
+}
+#wait{
+    margin: auto;
+    height: 30px;
+    width: 50px;
+    border: 2px solid black;
+    background-color: wheat;
+}

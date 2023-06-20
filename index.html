@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caluculator Application</title>
+    <style>
+        body{
+            background-image: url("https://images.unsplash.com/photo-1625225233840-695456021cde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FsY3VsYXRlfGVufDB8fDB8fHww&w=1000&q=80");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="cal.jpeg" type="image/x">
+</head>
+<body>
+    <div class="a">
+        <br><center>
+    <input type="number" placeholder="enter the first number" id="n1">
+    </center><br>
+    <div id="result"></div><br>
+    <div id="wait">wait</div><br>
+    <div>
+        <center>
+    <input type="submit" value="add" id="add">
+    <input type="submit" value="sub" id="sub">
+    </center>
+    </div><br>
+    <div>
+        <center>
+    <input type="submit" value="mul" id="mul">
+    <input type="submit" value="div" id="div">
+    </center><br>
+    </div>
+    
+   <center>
+    <input type="submit" value="=" id="=" class="reload" onclick="hello()">
+</center>
+<center>
+<input type="submit" value="reload" id="reload" onclick="window.location.reload()"><br></center></div>
+    <script src="design.js"></script>
+</body>
+</html>
